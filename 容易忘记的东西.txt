@@ -1,0 +1,69 @@
+阿里云容器服务 https://cr.console.aliyun.com/undefined/new
+阿里云 无情哈拉少zbc_c  xsh1234567
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+docker build 指定dockerfile文件 docker build -f /.../...dockrefile -t 镜像名:镜像版本 .(加点！ 版本号不加默认latest)
+pull:
+ sudo docker pull registry.cn-hangzhou.aliyuncs.com/xsh_docker/xsh_docker:[镜像版本号]
+
+push:
+$ sudo docker login --username=无情哈拉少zbc_c registry.cn-hangzhou.aliyuncs.com
+$ sudo docker tag [ImageId] registry.cn-hangzhou.aliyuncs.com/xsh_docker/xsh_docker:[镜像版本号]
+$ sudo docker push registry.cn-hangzhou.aliyuncs.com/xsh_docker/xsh_docker:[镜像版本号]
+
+dig @114.114.114.114 index.docker.io
+vim /etc/hosts
+34.193.164.221   index.docker.io
+
+dockercloud  
+1156966871@qq.com
+Lzw1234567
+
+aliyundocker："registry-mirrors": ["https://karowi6h.mirror.aliyuncs.com"]
+
+MindManager 2020
+许可密钥：MP20-888-MP11-AAA5-BBBB 
+
+查看windows激活时间 slmgr.vbs -xpr
+
+java位运算符：
+先换算为二进制
+&(与):两个操作数中位都为1，结果才为1，否则结果为0
+^(异或):两个操作数的位中，相同则结果为0，不同则结果为1
+| (或):两个位只要有一个为1，那么结果就是1，否则就为0
+~(非):如果位为0，结果是1，如果位为1，结果是0 运算规则：如果位为0，结果是1，如果位为1，结果是0.
+
+比如：~37
+
+在Java中，所有数据的表示方法都是以补码的形式表示，如果没有特殊说明，Java中的数据类型默认是int,int数据类型的长度是8位，一位是四个字节，就是32字节，32bit.
+
+8转为二进制是100101.
+
+补码后为： 00000000 00000000 00000000 00100101
+
+取反为：    11111111 11111111 11111111 11011010
+
+因为高位是1，所以原码为负数，负数的补码是其绝对值的原码取反，末尾再加1。
+
+因此，我们可将这个二进制数的补码进行还原： 首先，末尾减1得反码：11111111 11111111 11111111 11011001 其次，将各位取反得原码：
+
+00000000 00000000 00000000 00100110，此时二进制转原码为38
+
+所以~37 = -38. 
+
+String a; 申明一个string类型的 a，即bai没有du在申请内存地址，更没有在内存任zhi何指向引用地址;
+String a = null ; 申明一个string类型的 a，同dao时在内存里申请了一个地址，但是该地址不指向任何引用地址。
+Windows  \   
+Linux  /
+java file \\
+支付宝沙箱密码 111111
+github 邮箱1156966871@qq.com 密码 Lzw1234567
+linux ip  192.168.184.128
+linux01 ip  192.168.184.129
+github01 XshGit01 邮箱：180354749@qq.com 密码：Lzw1234567
+Gitee 徐胜豪 https://gitee.com/xshlzw
+13397142901  Lzw1234567
+文件夹项目打war包命令进去webroot jar -cvf VideoWeb（叫什么）.war *
+maven项目进入项目一级目录 mvn clean package //进行打包
